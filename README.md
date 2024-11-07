@@ -19,8 +19,7 @@ The Framingham Heart Study dataset includes the following features:
 
 ### Source
 
-The dataset can be found at [Framingham Heart Study Dataset](https://www.kaggle.com/datasets/amanajmera1/framingham-heart-study-dataset).
-
+The dataset can be found at [link](https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset).
 ## Installation
 
 To run this project, you will need the following Python libraries:
