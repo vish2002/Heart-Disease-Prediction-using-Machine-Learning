@@ -1,6 +1,37 @@
-# Heart-Disease-Prediction-using-Machine-Learning
-I have used the dataset availiable on the Kaggle to build the heart disease prediction system using Machine Learning
+# Heart Disease Prediction using the Framingham Dataset
 
-This project is currently under development. The project repository contains a Jupyter notebook file. I have performed the EDA (Exploratory Data Analysis) and split the data into training and testing sets in the notebook file. Furthermore, I have applied machine learning algorithms and achieved an accuracy of 64%. Although this is not impressive,but the project is still in the development phase, and I will be conducting further EDA. Additionally, I have decided to build a web app for this project.
+## Overview
 
-Dataset Link: [link](https://www.kaggle.com/datasets/m1relly/heart-attack-prediction/data)
+This project aims to predict the likelihood of heart disease in individuals using the Framingham Heart Study dataset. The dataset contains various health-related attributes that can help in identifying risk factors associated with heart disease.
+
+## Dataset
+
+The Framingham Heart Study dataset includes the following features:
+
+- **Age**: Age of the individual
+- **Sex**: Gender of the individual (1 = Male, 0 = Female)
+- **Cholesterol**: Total cholesterol levels
+- **Blood Pressure**: Systolic and diastolic blood pressure
+- **BMI**: Body Mass Index
+- **Smoking Status**: Whether the individual is a smoker
+- **Diabetes**: Presence of diabetes (1 = Yes, 0 = No)
+- **Heart Disease**: Target variable indicating the presence of heart disease (1 = Yes, 0 = No)
+
+### Source
+
+The dataset can be found at [Framingham Heart Study Dataset](https://www.kaggle.com/datasets/amanajmera1/framingham-heart-study-dataset).
+
+## Installation
+
+To run this project, you will need the following Python libraries:
+
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+
+You can install the required libraries using pip:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
